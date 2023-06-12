@@ -1,0 +1,20 @@
+.Main_Div{
+    background-color: aqua;
+    height: 600px;
+    width: 400px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: dotted 7px blueviolet;
+}
+.Second_div{
+    background-color: black;
+    margin:0 auto;
+    max-width: 1080px;
+    color: aqua;
+    margin-bottom: 50px;
+    border: solid 10px red;
+}
+.pic{
+    background-color: chartreuse;
+}
