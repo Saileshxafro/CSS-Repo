@@ -18,3 +18,31 @@
 .pic{
     background-color: chartreuse;
 }
+
+/* div h1{
+    color: blue;
+} */
+
+/* .one h1{
+    color: brown;
+}
+.two h1{
+    color: aqua;
+} */
+/* 
+body h1{
+    color: red;
+} */
+/* .one>h1{
+    color: goldenrod;
+} */
+/* div~h1{
+    color: hotpink;
+} */
+div+h1{
+    color: lightslategrey;
+}
+.main{
+    color: azure;
+    background-color: black;
+}
