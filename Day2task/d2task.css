@@ -1,0 +1,33 @@
+.Div_One{
+    background-color: rgb(40, 154, 196);
+}
+.Phone_No{
+    width: 30px;
+}
+.Add_text{
+    width: 300px;
+    height: 200px ;
+}
+.Div_Two{
+    background-color: aqua;
+}
+.Stu_Reg{
+    text-align: center;
+    border: double black ;
+    margin-left: 300px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Dob{
+    width: 50px;
+    height: 15px;
+}
+.Address_One{
+    width: 570px;
+}
+td
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
