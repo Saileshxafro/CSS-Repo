@@ -1,0 +1,26 @@
+.Main_Content{
+    background-image: url("Dog.jpg");
+    background-size: cover;
+    height:732px;
+    width:100%;
+    margin-top:-55px;
+}
+.Ani_Head{
+    color: black;
+    text-align: center;
+    font-family: 'Foldit';
+    font-size: 90px;
+    padding-top: 50px;
+}
+.Ani_HeadTwo{
+    color: black;
+    text-align: center;
+    font-family: 'Qwigley';
+    font-size: 40px;
+}
+.Button_One{
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+    margin-left: 45%;
+}
