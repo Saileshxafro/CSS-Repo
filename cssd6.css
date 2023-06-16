@@ -1,0 +1,112 @@
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+}
+/* a:hover{
+    font-size: 70px;
+    background-color: aquamarine;
+    color: blue;
+} */
+a:active{
+    color: darkmagenta;
+}
+input:focus{
+    background-color: green;
+}
+button:focus{
+    background-color: aqua;
+}
+ul li{
+    list-style-type: circle;
+    /* list-style-image: url(istockphoto-1296344118-612x612.jpg); */
+    list-style-position: inside;
+}
+li span{
+    color: darkgoldenrod;
+}
+li {
+    color: red;
+}
+/* p::first-line{
+    color: chartreuse;
+}
+p::first-letter{
+    color: red;
+} */
+.para::first-letter{
+    color: greenyellow;
+}
+h1::after{
+    content: url(istockphoto-1254474165-612x612.jpg);
+}
+::marker{
+    color: purple;
+    font-size: larger;
+}
+::selection{
+    background-color: black;
+    color: greenyellow;
+}
+::placeholder{
+    color: brown;
+}
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    /* empty-cells: hide; */
+}
+table{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+caption{
+    color: deepskyblue;
+    font-size: 50px;
+    /* text-align: right;
+    caption-side: top; */
+}
+th,td{
+    padding: 10px;
+}
+th{
+    height: 20px;
+    /* text-align: right; */
+    background-color: cadetblue;
+}
+td{
+    height: 20px;
+    /* text-align: center; */
+    vertical-align: middle;
+}
+/* tr:hover{
+    background-color: gold;
+    color: white;
+} */
+tr:first-child{
+    background-color: aquamarine;
+}
+tr:last-child{
+    background-color: blanchedalmond;
+}
+tr:nth-child(2){
+    background-color: black;
+    color: aliceblue;
+}
+tr:hover :nth-child(3){
+    background-color: burlywood; 
+}
+.ela{
+    background-color: blue;
+}
+.pic{
+    background-image: url(istockphoto-1296344118-612x612.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
