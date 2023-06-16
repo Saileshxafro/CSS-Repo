@@ -1,0 +1,29 @@
+.Div_One{
+    padding: 30px;
+    border: 5px solid black;
+    background-origin: padding-box;
+    background: yellow fixed url(istockphoto-1317323736-612x612.jpg) no-repeat 0 50%;
+    height: 100%;
+    width: 100%;
+}
+.Back_Clip{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 600 ;
+    font-size: larger ;
+    text-align: center;
+    background-image: url(istockphoto-1317323736-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.Gradient{
+    width: 1000px;
+    height: 600px;
+    /* background-image: repeating-linear-gradient(65deg,red,blue,orange); */
+    /* background-image: repeating-radial-gradient(red,blue 20%,orange 30%); */
+    /* background-image: radial-gradient(circle at 70%,black,green,red,violet); */
+    /* background-image:repeating-conic-gradient(red, black); */
+    /* border-radius: 50%; */
+}
